@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+  }
+
+  #title, #description {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  #survey-form {
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  #name-label {
+    margin-bottom: 25px;
+  }
+
+  #email-label {
+    margin-bottom: 25px;
+  }
+
+  #number-label {
+    margin-bottom: 25px;
+  }
+
+    #name, 
+    #email, 
+    #number,
+    textarea,
+    select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    }
+ 
+    .checkbox-item {
+        display: block;
+    }
