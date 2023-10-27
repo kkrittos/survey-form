@@ -8,6 +8,19 @@ body {
     font-size: 16px;
   }
 
+  /* body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../pictures/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
   #title, #description {
     margin: 1em auto;
     text-align: center;
@@ -47,7 +60,20 @@ body {
     width: 100%;
     min-height: 2em;
     }
- 
-    .checkbox-item {
-        display: block;
+    
+    .disabled {
+      color: gray;
+    }
+
+    .checkbox {
+      display: flex;
+    }
+
+    #submit {
+      width: 100%;
+      height: 2em;
+      margin: 1em auto;
+      display: block;
+      background-color: green;
+      color: aliceblue;
     }
